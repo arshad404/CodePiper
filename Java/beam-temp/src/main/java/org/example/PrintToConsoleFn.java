@@ -8,5 +8,4 @@ public class PrintToConsoleFn extends DoFn<String, String> {
         System.out.println(c.element());
         c.output(c.element());
     }
-
 }
